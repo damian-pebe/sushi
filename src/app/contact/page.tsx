@@ -11,20 +11,15 @@ export default function page() {
 
 function Hero() {
   return (
-    <div className="relative w-full h-screen overflow-hidden">
+    <div className="relative w-full h-full overflow-hidden">
       <div className="absolute inset-0">
         <Image
           src="/images/sushi.jpg"
           alt="Background"
           fill
-          className="object-cover h-screen"
+          className="object-cover opacity-50 animate-fadeInDown h-screen"
         />
       </div>
-      <Titles />
     </div>
   );
-}
-
-function Titles() {
-  return <div>page</div>;
 }
