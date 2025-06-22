@@ -1,10 +1,10 @@
 "use client";
-import { useRevealer } from "@/hooks/useRevealer";
+import { UseRevealer } from "@/hooks/useRevealer";
 import React from "react";
 import Image from "next/image";
 
 export default function page() {
-  useRevealer();
+  UseRevealer();
   return (
     <div className="flex flex-col justify-between items-center h-full w-full">
       <div className="revealer"></div>
