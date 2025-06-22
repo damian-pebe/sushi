@@ -8,6 +8,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        playfair: ["var(--font-playfair)"],
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
@@ -18,4 +21,3 @@ const config: Config = {
 };
 
 export default config;
-
