@@ -5,11 +5,25 @@
   --fg: #171717;
 }
 
+@font-face {
+  font-family: 'Careny';
+  src: url('/fonts/CarenyRegular-GO27Z.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--fg);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --font-careny: Careny;
+  --font-lobster: var(--font-lobster);
+  --font-poppins: var(--font-poppins);
+  --font-plaster: var(--font-plaster);
+  --font-ephesis: var(--font-ephesis);
+  --font-birthstone: var(--font-birthstone);
 }
 
 body {

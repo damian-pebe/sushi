@@ -35,7 +35,7 @@ export default function Navbar() {
       });
     };
   return (
-    <div className="flex justify-between items-center bg-[#FAFAFA] text-black p-6 shadow-2xl z-50 font-serif">
+    <div className="flex justify-between items-center bg-[#FAFAFA] text-black p-6 shadow-2xl z-50 font-careny">
       <Link
         href="/"
         onClick={handleNavigation("/")}
