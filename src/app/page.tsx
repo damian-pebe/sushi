@@ -83,11 +83,10 @@ function Titles() {
           <Link
             href="/menu"
             onClick={handleNavigation("/menu")}
-            className="group flex justify-center items-center gap-2 border border-white/30 rounded-full ml-12 md:ml-5 px-4 py-2 text-3xl transition hover:-translate-y-1 duration-1000 animate-fadeInRight"
+            className="group flex justify-center items-center gap-2 border border-white/30 rounded-full ml-12 md:ml-5 px-4 py-2 text-xl md:text-3xl transition hover:-translate-y-1 duration-1000 animate-fadeInRight"
           >
             Agendar Cita{" "}
             <ArrowUpRightIcon
-              size={32}
               className="bg-white text-black rounded-full p-1 transition-all group-hover:-rotate-[360deg] duration-700"
             />
           </Link>
