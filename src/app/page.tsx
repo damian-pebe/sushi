@@ -86,14 +86,14 @@ function HeroNavigation() {
     },
   ];
   return (
-    <div className="relative w-[30vw] h-screen overflow-hidden border-black border-y-[16px] border-r-[16px]">
+    <div className="relative w-[33vw] h-screen overflow-hidden border-black border-y-[16px] border-r-[16px]">
       <div className="flex flex-col justify-between items-center h-full w-full relative text-white font-careny text-xl">
         {navimap.map((nav) => (
           <Link
             href={nav.href}
             key={nav.href}
             onClick={handleNavigation(nav.href)}
-            className="relative w-full h-1/3 rounded-3xl overflow-hidden mb-4 group "
+            className="relative w-full h-[34vh] rounded-3xl overflow-hidden mb-4 group "
           >
             <Image
               src={`/images/${nav.image}.jpg`}
