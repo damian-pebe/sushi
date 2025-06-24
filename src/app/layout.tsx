@@ -57,7 +57,7 @@ const birthstone = Birthstone({
   variable: "--font-birthstone",
 });
 export const metadata: Metadata = {
-  title: "Sushi Store",
+  title: "Sushi Kuraby",
   description: "Website for a sushi store",
 };
 
