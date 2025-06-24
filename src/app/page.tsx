@@ -10,8 +10,9 @@ import { usePathname } from "next/navigation";
 export default function page() {
   UseRevealer();
   return (
-    <div className="flex flex-col justify-between items-center h-full w-full">
+    <div className="flex flex-col justify-between items-center h-full w-full bg-black">
       <div className="revealer"></div>
+      
       <Hero />
     </div>
   );
@@ -19,15 +20,15 @@ export default function page() {
 
 function Hero() {
   return (
-    <div className="relative w-full h-screen overflow-hidden">
-      <div className="absolute inset-0 bg-black opacity-40 z-0" />
+    <div className="relative w-[100vw] h-screen overflow-hidden border-black border-[16px]">
+      <div className="absolute inset-0 bg-black opacity-40 z-0 rounded-3xl" />
 
-      <div className="absolute inset-0">
+      <div className="absolute inset-0 rounded-3xl overflow-hidden">
         <Image
           src="/images/sushi.jpg"
           alt="Background"
           fill
-          className="object-cover h-screen z-0"
+          className="object-cover h-screen z-0 rounded-3xl"
         />
       </div>
       <Titles />
