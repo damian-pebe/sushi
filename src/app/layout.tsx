@@ -74,7 +74,7 @@ export default function RootLayout({
             ${geistSans.variable} ${geistMono.variable} ${lobster.variable} ${poppins.variable} ${plaster.variable} ${ephesis.variable} ${birthstone.variable}${geistSans.variable} ${geistMono.variable} ${lobster.variable} ${poppins.variable} ${plaster.variable} ${ephesis.variable} ${birthstone.variable} ${playfair.variable} 
             antialiased font-poppins`}
         >
-          {/* <Navbar /> */}
+          <Navbar />
           {children}
         </body>
       </html>
