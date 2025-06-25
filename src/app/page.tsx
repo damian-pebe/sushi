@@ -14,7 +14,10 @@ export default function page() {
       <div className="revealer"></div>
       <div className="flex flex-row w-full h-screen justify-between items-center">
         <Hero />
+        <div className="hidden md:block">
+
         <HeroNavigation />
+        </div>
       </div>
     </div>
   );
@@ -22,7 +25,7 @@ export default function page() {
 
 function Hero() {
   return (
-    <div className="relative w-[70vw] h-screen overflow-hidden border-black border-[16px]">
+    <div className="relative w-[100vw] md:w-[70vw] h-screen overflow-hidden border-black border-[16px]">
       <div className="absolute inset-0 bg-black opacity-40 z-0 rounded-3xl" />
 
       <div className="absolute inset-0 rounded-3xl overflow-hidden">
@@ -119,8 +122,8 @@ function HeroNavigation() {
 
 function Titles() {
   return (
-    <div className="relative z-10 flex flex-col h-full w-full pt-32 md:py-10 px-5 justify-between text-start text-white font-careny">
-      <p className="text-6xl md:text-5xl h-full tracking-wide animate-fadeInLeft">
+    <div className="relative z-[5x] flex flex-col h-full w-full pt-10 md:pt-24 md:py-10 px-5 justify-between text-start text-white font-careny">
+      <p className="text-4xl md:text-5xl h-full tracking-wide animate-fadeInLeft">
         KURABY SUSHI RESTAURANT
       </p>
       <div className="flex flex-col md:flex-row justify-between h-full md:h-min items-center mb-10 md:ml-5">
@@ -129,7 +132,7 @@ function Titles() {
         </p>
        
       </div>
-        <div className="group hover:cursor-pointer flex justify-center items-center gap-2 border border-white/30 rounded-full mx-24 md:ml-5 px-4 py-2 text-xl md:text-3xl transition hover:-translate-y-1 duration-1000 animate-fadeInRight">
+        <div className="group hover:cursor-pointer flex justify-center items-center gap-2 border border-white/30 rounded-full mx-10 mb-5 md:mx-24 md:ml-5 px-4 py-2 text-xl md:text-3xl transition hover:-translate-y-1 duration-1000 animate-fadeInRight">
           Ver Menú{" "}
           <ArrowUpRightIcon className="bg-white text-black rounded-full p-1 transition-all group-hover:-rotate-[360deg] duration-700" />
         </div>

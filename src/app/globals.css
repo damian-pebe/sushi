@@ -105,9 +105,9 @@ body {
   width: 100vw;
   height: 100vh;
   transform-origin: center top;
-  background: #171717;
+  background: #0c0c0c;
   pointer-events: none;
-  z-index: 12;
+  z-index: 100;
 }
 
 ::view-transition-old(root),

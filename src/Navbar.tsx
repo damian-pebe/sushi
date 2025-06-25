@@ -43,7 +43,7 @@ export default function Navbar() {
       });
     };
   return (
-    <div className="absolute top-1/4 left-32 flex items-center bg-black text-white px-4 py-2 rounded-full z-50 font-careny gap-4 w-full md:w-fit shadow-md border border-white/10">
+    <div className="absolute top-1/4 left-5 md:left-32 flex items-center bg-black text-white px-4 py-2 rounded-full z-10 font-careny gap-2 md:gap-4 w-fit shadow-md border border-white/10">
       <Sheet>
         <SheetTrigger className="hover:cursor-pointer ml-auto bg-transparent border border-white/20 hover:bg-white/10 transition text-sm px-4 py-2 rounded-lg">
           <OpenSheetWhite />
@@ -70,10 +70,10 @@ export default function Navbar() {
       <div className="hidden md:flex gap-6 ml-6 text-sm tracking-wide">
         <Link
           href="/menu"
-          onClick={handleNavigation("/menu")}
+          onClick={handleNavigation("/contact")}
           className="hover:text-gray-300 border border-black hover:border-white/20 hover:bg-white/20 px-4 py-2 rounded-lg transition-all duration-700 transform hover:-translate-y-1"
         >
-          MENU
+          GET IN TOUCH
         </Link>
         <Link
           href="/who"
@@ -86,10 +86,10 @@ export default function Navbar() {
 
       <Link
         href="/contact"
-        onClick={handleNavigation("/contact")}
+        onClick={handleNavigation("/menu")}
         className="ml-auto bg-transparent border border-white/20 hover:bg-white hover:text-black text-sm px-4 py-2 rounded-lg transition-all duration-700"
       >
-        GET IN TOUCH
+         MENU
       </Link>
     </div>
   );
