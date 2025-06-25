@@ -62,7 +62,7 @@ export default function Navbar() {
       <Link
         href="/"
         onClick={handleNavigation("/")}
-        className="text-2xl tracking-widest font-careny text-white hover:text-white transition-all"
+        className="flex items-center h-full text-center pl-2 pt-1 text-2xl tracking-widest font-careny text-white/70 hover:text-white duration-300 transform transition-all"
       >
         KURABY
       </Link>
@@ -71,14 +71,14 @@ export default function Navbar() {
         <Link
           href="/menu"
           onClick={handleNavigation("/menu")}
-          className="hover:text-gray-300 transition"
+          className="hover:text-gray-300 border border-black hover:border-white/20 hover:bg-white/20 px-4 py-2 rounded-lg transition-all duration-700 transform hover:-translate-y-1"
         >
           MENU
         </Link>
         <Link
           href="/who"
           onClick={handleNavigation("/who")}
-          className="hover:text-gray-300 transition"
+          className="hover:text-gray-300 border border-black hover:border-white/20 hover:bg-white/20 px-4 py-2 rounded-lg transition-all duration-700 transform hover:-translate-y-1"
         >
           ABOUT
         </Link>
@@ -87,7 +87,7 @@ export default function Navbar() {
       <Link
         href="/contact"
         onClick={handleNavigation("/contact")}
-        className="ml-auto bg-transparent border border-white/20 hover:bg-white hover:text-black transition text-sm px-4 py-2 rounded-lg"
+        className="ml-auto bg-transparent border border-white/20 hover:bg-white hover:text-black text-sm px-4 py-2 rounded-lg transition-all duration-700"
       >
         GET IN TOUCH
       </Link>

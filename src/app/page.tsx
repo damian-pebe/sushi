@@ -71,7 +71,7 @@ function HeroNavigation() {
   const navimap = [
     {
       href: "/who",
-      image: "sushi",
+      image: "sushi5",
       label: "ABOUT",
     },
     {
@@ -129,7 +129,7 @@ function Titles() {
         </p>
        
       </div>
-        <div className="group hover:cursor-pointer flex justify-center items-center gap-2 border border-white/30 rounded-full ml-12 md:ml-5 px-4 py-2 text-xl md:text-3xl transition hover:-translate-y-1 duration-1000 animate-fadeInRight">
+        <div className="group hover:cursor-pointer flex justify-center items-center gap-2 border border-white/30 rounded-full mx-24 md:ml-5 px-4 py-2 text-xl md:text-3xl transition hover:-translate-y-1 duration-1000 animate-fadeInRight">
           Ver Menú{" "}
           <ArrowUpRightIcon className="bg-white text-black rounded-full p-1 transition-all group-hover:-rotate-[360deg] duration-700" />
         </div>
