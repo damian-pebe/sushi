@@ -11,7 +11,7 @@ export default function page() {
       <div className="flex flex-row w-full h-screen justify-between items-center">
         <Hero />
         <div className="hidden md:block">
-          <Titles />
+          <About />
         </div>
       </div>
     </div>
@@ -31,11 +31,13 @@ function Hero() {
           className="object-cover h-screen z-0 rounded-3xl"
         />
       </div>
+                <Titles />
+
     </div>
   );
 }
 
-function Titles() {
+function About() {
   return (
     <div className="relative z-[5px] flex flex-col h-full w-full items-end px-4 md:px-16 py-10 text-white overflow-hidden">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 w-full max-w-7xl">
@@ -100,6 +102,21 @@ function Titles() {
             devotion to redefining gastronomy.
           </p>
         </div>
+      </div>
+    </div>
+  );
+}
+
+function Titles() {
+  return (
+    <div className="relative z-[5x] flex flex-col h-full w-full pt-10 md:pt-24 md:py-10 px-5 justify-between text-start text-white font-careny">
+      <p className="text-4xl md:text-5xl h-full tracking-wide animate-fadeInLeft">
+        ABOUT KURABY
+      </p>
+      <div className="flex flex-col md:flex-row justify-between h-full md:h-min items-center mb-10 md:ml-5">
+        <p className="text-2xl md:text-5xl text-center md:text-end tracking-wide w-full animate-fadeInLeft">
+          Rooted in tradition, driven by creativity — this is the story behind our sushi.
+        </p>
       </div>
     </div>
   );
