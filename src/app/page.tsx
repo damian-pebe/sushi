@@ -15,8 +15,7 @@ export default function page() {
       <div className="flex flex-row w-full h-screen justify-between items-center">
         <Hero />
         <div className="hidden md:block">
-
-        <HeroNavigation />
+          <HeroNavigation />
         </div>
       </div>
     </div>
@@ -130,12 +129,11 @@ function Titles() {
         <p className="text-2xl md:text-5xl text-center md:text-end tracking-wide w-full animate-fadeInLeft">
           Tradición japonesa, elegancia contemporánea{" "}
         </p>
-       
       </div>
-        <div className="group hover:cursor-pointer flex justify-center items-center gap-2 border border-white/30 rounded-full mx-10 mb-5 md:mx-24 md:ml-5 px-4 py-2 text-xl md:text-3xl transition hover:-translate-y-1 duration-1000 animate-fadeInRight">
-          Ver Menú{" "}
-          <ArrowUpRightIcon className="bg-white text-black rounded-full p-1 transition-all group-hover:-rotate-[360deg] duration-700" />
-        </div>
+      <div className="group hover:cursor-pointer flex justify-center items-center gap-2 border border-white/30 rounded-full mx-10 mb-5 md:mx-24 md:ml-5 px-4 py-2 text-xl md:text-3xl transition hover:-translate-y-1 duration-1000 animate-fadeInRight">
+        Ver Menú{" "}
+        <ArrowUpRightIcon className="bg-white text-black rounded-full p-1 transition-all group-hover:-rotate-[360deg] duration-700" />
+      </div>
     </div>
   );
 }

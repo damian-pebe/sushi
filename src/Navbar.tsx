@@ -89,7 +89,7 @@ export default function Navbar() {
         onClick={handleNavigation("/menu")}
         className="ml-auto bg-transparent border border-white/20 hover:bg-white hover:text-black text-sm px-4 py-2 rounded-lg transition-all duration-700"
       >
-         MENU
+        MENU
       </Link>
     </div>
   );

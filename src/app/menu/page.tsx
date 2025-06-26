@@ -34,7 +34,7 @@ function Hero() {
 
 function Titles() {
   return (
-    <div className="relative z-10 flex flex-col items-center justify-center h-full">
+    <div className="relative z-[5x] flex flex-col items-center justify-center h-full">
       <h1 className="text-4xl md:text-6xl font-bold text-white text-center">
         Welcome to the best Sushi Menu
       </h1>
