@@ -2,7 +2,6 @@
 import { UseRevealer } from "@/hooks/useRevealer";
 import React from "react";
 import Image from "next/image";
-import { MailCheckIcon, PhoneForwardedIcon, Store } from "lucide-react";
 
 export default function ContactPage() {
   UseRevealer();
