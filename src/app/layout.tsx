@@ -11,6 +11,7 @@ import {
 } from "next/font/google";
 import { ViewTransitions } from "next-view-transitions";
 import "./globals.css";
+import 'bootstrap-icons/font/bootstrap-icons.css';
 import Navbar from "@/Navbar";
 
 const playfair = Playfair_Display({
